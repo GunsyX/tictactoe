@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.ttt {
+  display: block;
+  margin: 10px;
+  width: fit-content;
+}
+
+.t-row {
+  display: flex;
+  border-top: 1px solid grey;
+}
+.t-row:last-child {
+  border-bottom: 1px solid grey;
+}
+
+.t-cell {
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-left: 1px solid grey;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  line-height: 1;
+  font-family: tahoma;
+  padding-bottom: 10px;
+}
+.t-cell:last-child {
+  border-right: 1px solid grey;
+}
+.App {
+  display: flex;
+}
+.ui {
+  margin: 10px;
+}
+.ui > button {
+  display: block;
+  margin-top: 10px;
+}
+
+.ui-winbox {
+  margin: 10px;
+  color: green;
+}
